@@ -1,4 +1,4 @@
-import {useInput} from 'ink';
+import {useInput} from '@exhumer/ink';
 import {type SelectState} from './use-select-state.js';
 
 export type UseSelectProps = {

@@ -1,4 +1,4 @@
-import {type BoxProps, type TextProps} from 'ink';
+import {type BoxProps, type TextProps} from '@exhumer/ink';
 import {type ComponentTheme} from '../../theme.js';
 
 const theme = {

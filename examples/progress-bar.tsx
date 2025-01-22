@@ -4,7 +4,7 @@
  */
 
 import React, {useEffect, useState} from 'react';
-import {render, Box} from 'ink';
+import {render, Box} from '@exhumer/ink';
 import {ProgressBar} from '../source/index.js';
 
 function Example() {

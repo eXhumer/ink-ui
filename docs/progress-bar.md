@@ -8,8 +8,8 @@
 
 ```tsx
 import React, {useEffect, useState} from 'react';
-import {render, Box} from 'ink';
-import {ProgressBar} from '@inkjs/ui';
+import {render, Box} from '@exhumer/ink';
+import {ProgressBar} from '@exhumer/ink-ui';
 
 function Example() {
 	const [progress, setProgress] = useState(0);

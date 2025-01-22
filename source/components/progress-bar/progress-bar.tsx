@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Box, type DOMElement, Text, measureElement} from 'ink';
+import {Box, type DOMElement, Text, measureElement} from '@exhumer/ink';
 import {useComponentTheme} from '../../theme.js';
 import {type Theme} from './theme.js';
 

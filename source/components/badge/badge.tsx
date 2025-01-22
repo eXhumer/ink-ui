@@ -1,4 +1,4 @@
-import {Text, type TextProps} from 'ink';
+import {Text, type TextProps} from '@exhumer/ink';
 import React, {type ReactNode} from 'react';
 import {useComponentTheme} from '../../theme.js';
 import {type Theme} from './theme.js';

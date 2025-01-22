@@ -1,7 +1,7 @@
 import React from 'react';
 import test from 'ava';
-import {Text} from 'ink';
-import {render} from 'ink-testing-library';
+import {Text} from '@exhumer/ink';
+import {render} from '@exhumer/ink-testing-library';
 import chalk from 'chalk';
 import {
 	ThemeProvider,

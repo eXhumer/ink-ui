@@ -1,4 +1,4 @@
-import {Box} from 'ink';
+import {Box} from '@exhumer/ink';
 import React, {type ReactNode, useContext, isValidElement} from 'react';
 import {useComponentTheme} from '../../theme.js';
 import {OrderedListItem} from './ordered-list-item.js';

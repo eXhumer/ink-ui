@@ -1,5 +1,5 @@
 import React, {type ReactNode} from 'react';
-import {Box, Text} from 'ink';
+import {Box, Text} from '@exhumer/ink';
 import {useComponentTheme} from '../../theme.js';
 import {type Option} from '../../types.js';
 import {SelectOption} from './select-option.js';

@@ -1,4 +1,4 @@
-import {Box} from 'ink';
+import {Box} from '@exhumer/ink';
 import React, {useMemo, type ReactNode, useContext} from 'react';
 import {useComponentTheme} from '../../theme.js';
 import {UnorderedListItem} from './unordered-list-item.js';

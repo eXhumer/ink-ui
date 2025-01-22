@@ -1,6 +1,6 @@
 import React from 'react';
 import test from 'ava';
-import {render} from 'ink-testing-library';
+import {render} from '@exhumer/ink-testing-library';
 import delay from 'delay';
 import {ConfirmInput} from '../source/index.js';
 

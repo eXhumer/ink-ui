@@ -1,5 +1,5 @@
 import React from 'react';
-import {render, Box} from 'ink';
+import {render, Box} from '@exhumer/ink';
 import delay from 'delay';
 import {EmailInput} from '../source/index.js';
 import {del} from '../helpers/escapes.js';

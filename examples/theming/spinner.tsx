@@ -1,5 +1,5 @@
 import React from 'react';
-import {render, Box, type TextProps} from 'ink';
+import {render, Box, type TextProps} from '@exhumer/ink';
 import {
 	Spinner,
 	ThemeProvider,

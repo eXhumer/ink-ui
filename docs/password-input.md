@@ -10,8 +10,8 @@
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {PasswordInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {PasswordInput} from '@exhumer/ink-ui';
 import input from '../helpers/input.js';
 
 function Example() {
@@ -36,8 +36,8 @@ When you're only looking for the final value when user presses <kbd>enter</kbd>,
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {PasswordInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {PasswordInput} from '@exhumer/ink-ui';
 
 function Example() {
 	const [value, setValue] = useState('');
@@ -61,8 +61,8 @@ When there are two or more password inputs, only one should be receiving user in
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {PasswordInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {PasswordInput} from '@exhumer/ink-ui';
 import input from '../helpers/input.js';
 import press from '../helpers/press.js';
 

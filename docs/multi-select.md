@@ -10,8 +10,8 @@
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {MultiSelect} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {MultiSelect} from '@exhumer/ink-ui';
 
 function Example() {
 	const [value, setValue] = useState<string[]>([]);
@@ -68,8 +68,8 @@ Default value can be set via `defaultValue` prop.
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {MultiSelect} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {MultiSelect} from '@exhumer/ink-ui';
 
 function Example() {
 	const [value, setValue] = useState(['green']);
@@ -127,8 +127,8 @@ When you're only looking for the final value when user presses <kbd>enter</kbd>,
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {MultiSelect} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {MultiSelect} from '@exhumer/ink-ui';
 
 function Example() {
 	const [value, setValue] = useState<string[]>([]);
@@ -185,8 +185,8 @@ When there are two or more selects, only one should be receiving user input at a
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {MultiSelect} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {MultiSelect} from '@exhumer/ink-ui';
 
 const options = [
 	{

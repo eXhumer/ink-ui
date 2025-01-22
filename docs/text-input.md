@@ -10,8 +10,8 @@
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {TextInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {TextInput} from '@exhumer/ink-ui';
 
 function Example() {
 	const [value, setValue] = useState('');
@@ -35,8 +35,8 @@ Default value can be set via `defaultValue` prop.
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {TextInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {TextInput} from '@exhumer/ink-ui';
 
 function Example() {
 	const [value, setValue] = useState('Jane');
@@ -68,8 +68,8 @@ When user presses <kbd>enter</kbd>, current suggestion will replace the input va
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {TextInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {TextInput} from '@exhumer/ink-ui';
 
 function Example() {
 	const [value, setValue] = useState('');
@@ -98,8 +98,8 @@ When you're only looking for the final value when user presses <kbd>enter</kbd>,
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {TextInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {TextInput} from '@exhumer/ink-ui';
 
 function Example() {
 	const [value, setValue] = useState('');
@@ -123,8 +123,8 @@ When there are two or more text inputs, only one should be receiving user input 
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {TextInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {TextInput} from '@exhumer/ink-ui';
 
 function Example() {
 	const [activeInput, setActiveInput] = useState('name');

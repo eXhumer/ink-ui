@@ -8,8 +8,8 @@
 
 ```tsx
 import React from 'react';
-import {render, Box, Text} from 'ink';
-import {UnorderedList} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {UnorderedList} from '@exhumer/ink-ui';
 
 function Example() {
 	return (

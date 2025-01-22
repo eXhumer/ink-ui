@@ -1,4 +1,4 @@
-import React, {render, Text, type TextProps} from 'ink';
+import React, {render, Text, type TextProps} from '@exhumer/ink';
 import {
 	ThemeProvider,
 	defaultTheme,

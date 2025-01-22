@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import {render, Box, Text} from 'ink';
+import {render, Box, Text} from '@exhumer/ink';
 import {OrderedList} from '../source/index.js';
 
 function Example() {

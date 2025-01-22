@@ -5,10 +5,13 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: [22, 20, 18]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
-      - run: npm install
-      - run: npm test
+          node-version: ${{ matrix.node_version }}
+      - run: yarn
+      - run: yarn test

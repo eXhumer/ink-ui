@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-npm install @inkjs/ui
+npm install @exhumer/ink-ui
 ```
 
 _This assumes you've already set up [Ink](https://term.ink). The easiest way to get started is [create-ink-app](https://github.com/vadimdemedes/create-ink-app)._
@@ -21,7 +21,7 @@ _This assumes you've already set up [Ink](https://term.ink). The easiest way to 
 `TextInput` is used for entering any single-line input with an optional autocomplete.
 
 ```jsx
-import {TextInput} from '@inkjs/ui';
+import {TextInput} from '@exhumer/ink-ui';
 
 <TextInput
 	placeholder="Enter your name..."
@@ -40,7 +40,7 @@ import {TextInput} from '@inkjs/ui';
 `EmailInput` is used for entering an email. After "@" character is entered, domain can be autocompleted from the list of most popular email providers.
 
 ```jsx
-import {EmailInput} from '@inkjs/ui';
+import {EmailInput} from '@exhumer/ink-ui';
 
 <EmailInput
 	placeholder="Enter email..."
@@ -59,7 +59,7 @@ import {EmailInput} from '@inkjs/ui';
 `PasswordInput` is used for entering sensitive data, like passwords, API keys and so on. It works the same way as `TextInput`, except input value is masked and replaced with asterisks ("\*").
 
 ```jsx
-import {PasswordInput} from '@inkjs/ui';
+import {PasswordInput} from '@exhumer/ink-ui';
 
 <PasswordInput
 	placeholder="Enter password..."
@@ -78,7 +78,7 @@ import {PasswordInput} from '@inkjs/ui';
 `ConfirmInput` shows a common "Y/n" input to confirm or cancel an operation your CLI wants to perform.
 
 ```jsx
-import {ConfirmInput} from '@inkjs/ui';
+import {ConfirmInput} from '@exhumer/ink-ui';
 
 <ConfirmInput
 	onConfirm={() => {
@@ -99,7 +99,7 @@ import {ConfirmInput} from '@inkjs/ui';
 `Select` shows a scrollable list of options for a user to choose from.
 
 ```jsx
-import {Select} from '@inkjs/ui';
+import {Select} from '@exhumer/ink-ui';
 
 <Select
 	options={[
@@ -133,7 +133,7 @@ import {Select} from '@inkjs/ui';
 `MultiSelect` is similar to `Select`, except user can choose multiple options.
 
 ```jsx
-import {MultiSelect} from '@inkjs/ui';
+import {MultiSelect} from '@exhumer/ink-ui';
 
 <MultiSelect
 	options={[
@@ -167,7 +167,7 @@ import {MultiSelect} from '@inkjs/ui';
 `Spinner` indicates that something is being processed and CLI is waiting for it to complete.
 
 ```jsx
-import {Spinner} from '@inkjs/ui';
+import {Spinner} from '@exhumer/ink-ui';
 
 <Spinner label="Loading" />;
 ```
@@ -181,7 +181,7 @@ import {Spinner} from '@inkjs/ui';
 `ProgressBar` is an extended version of `Spinner`, where it's possible to calculate a progress percentage.
 
 ```jsx
-import {ProgressBar} from '@inkjs/ui';
+import {ProgressBar} from '@exhumer/ink-ui';
 
 // `progress` must be a number between 0 and 100
 <ProgressBar value={progress} />;
@@ -196,7 +196,7 @@ import {ProgressBar} from '@inkjs/ui';
 `Badge` can be used to indicate a status of a certain item, usually positioned nearby the element it's related to.
 
 ```jsx
-import {Badge} from '@inkjs/ui';
+import {Badge} from '@exhumer/ink-ui';
 
 <Badge color="green">Pass</Badge>
 <Badge color="red">Fail</Badge>
@@ -213,7 +213,7 @@ import {Badge} from '@inkjs/ui';
 `StatusMessage` can also be used to indicate a status, but when longer explanation of such status is required.
 
 ```jsx
-import {StatusMessage} from '@inkjs/ui';
+import {StatusMessage} from '@exhumer/ink-ui';
 
 <StatusMessage variant="success">
 	New version is deployed to production
@@ -241,7 +241,7 @@ import {StatusMessage} from '@inkjs/ui';
 `Alert` is used to focus user's attention to important messages.
 
 ```jsx
-import {Alert} from '@inkjs/ui';
+import {Alert} from '@exhumer/ink-ui';
 
 <Alert variant="success">
     A new version of this CLI is available
@@ -269,7 +269,7 @@ import {Alert} from '@inkjs/ui';
 `UnorderedList` is used to show lists of items.
 
 ```jsx
-import {UnorderedList} from '@inkjs/ui';
+import {UnorderedList} from '@exhumer/ink-ui';
 
 <UnorderedList>
 	<UnorderedList.Item>
@@ -305,7 +305,7 @@ import {UnorderedList} from '@inkjs/ui';
 `OrderedList` is used to show lists of numbered items.
 
 ```jsx
-import {OrderedList} from '@inkjs/ui';
+import {OrderedList} from '@exhumer/ink-ui';
 
 <OrderedList>
 	<OrderedList.Item>
@@ -367,8 +367,8 @@ This component theme hints that `Spinner` has 3 parts: container, frame and a la
 To customize the default theme, use `extendTheme` function and make that custom theme available to children components via `ThemeProvider`.
 
 ```tsx
-import {render, type TextProps} from 'ink';
-import {Spinner, ThemeProvider, extendTheme, defaultTheme} from '@inkjs/ui';
+import {render, type TextProps} from '@exhumer/ink';
+import {Spinner, ThemeProvider, extendTheme, defaultTheme} from '@exhumer/ink-ui';
 
 const customTheme = extendTheme(defaultTheme, {
 	components: {
@@ -441,14 +441,14 @@ Changing `marker` to `'+'` would render this:
 Components shipped in Ink UI automatically read the necessary styles and configuration from a theme. However, if you're adding a new custom component and a theme for it, use `useComponentTheme` hook to access it.
 
 ```tsx
-import React, {render, Text, type TextProps} from 'ink';
+import React, {render, Text, type TextProps} from '@exhumer/ink';
 import {
 	ThemeProvider,
 	defaultTheme,
 	extendTheme,
 	useComponentTheme,
 	type ComponentTheme,
-} from '@inkjs/ui';
+} from '@exhumer/ink-ui';
 
 const customLabelTheme = {
 	styles: {

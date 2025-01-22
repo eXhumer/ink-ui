@@ -4,7 +4,7 @@
  */
 
 import React, {useMemo, useState} from 'react';
-import {render, Box, Text} from 'ink';
+import {render, Box, Text} from '@exhumer/ink';
 import {TextInput, Select} from '../source/index.js';
 
 function Example() {

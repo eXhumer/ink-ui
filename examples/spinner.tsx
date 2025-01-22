@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import {render, Box} from 'ink';
+import {render, Box} from '@exhumer/ink';
 import {Spinner} from '../source/index.js';
 
 function Example() {

@@ -1,5 +1,5 @@
 import React, {type ReactNode} from 'react';
-import {Box, Text} from 'ink';
+import {Box, Text} from '@exhumer/ink';
 import {useComponentTheme} from '../../theme.js';
 import {type Theme} from './theme.js';
 

@@ -1,4 +1,4 @@
-import {useInput} from 'ink';
+import {useInput} from '@exhumer/ink';
 import {type MultiSelectState} from './use-multi-select-state.js';
 
 export type UseMultiSelectProps = {

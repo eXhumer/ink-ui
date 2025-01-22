@@ -8,8 +8,8 @@
 
 ```tsx
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
-import {ConfirmInput} from '@inkjs/ui';
+import {render, Box, Text} from '@exhumer/ink';
+import {ConfirmInput} from '@exhumer/ink-ui';
 
 function Example() {
 	const [choice, setChoice] = useState<'agreed' | 'disagreed' | undefined>();

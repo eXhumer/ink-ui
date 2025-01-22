@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {render, Box, Text} from 'ink';
+import {render, Box, Text} from '@exhumer/ink';
 import delay from 'delay';
 import {TextInput} from '../../../source/index.js';
 import {del} from '../helpers/escapes.js';

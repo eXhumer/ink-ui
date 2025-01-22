@@ -1,5 +1,5 @@
 import {useMemo} from 'react';
-import {useInput} from 'ink';
+import {useInput} from '@exhumer/ink';
 import chalk from 'chalk';
 import {type TextInputState} from './use-text-input-state.js';
 

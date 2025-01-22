@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text} from 'ink';
+import {Text} from '@exhumer/ink';
 import {useComponentTheme} from '../../theme.js';
 import {useEmailInputState} from './use-email-input-state.js';
 import {useEmailInput} from './use-email-input.js';

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Text} from 'ink';
+import {Box, Text} from '@exhumer/ink';
 import {useComponentTheme} from '../../theme.js';
 import {useSpinner, type UseSpinnerProps} from './use-spinner.js';
 import {type Theme} from './theme.js';
