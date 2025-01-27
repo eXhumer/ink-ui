@@ -1,6 +1,6 @@
 {
 	"name": "@exhumer/ink-ui",
-	"version": "2.0.1",
+	"version": "2.0.1-1",
 	"description": "Collection of customizable UI components for CLIs made with Ink",
 	"license": "MIT",
 	"repository": {
@@ -47,7 +47,7 @@
 		"figures": "^6.1.0"
 	},
 	"devDependencies": {
-		"@exhumer/ink": "^5.0.0",
+		"@exhumer/ink": "^5.1.1-3",
 		"@exhumer/ink-testing-library": "^4.0.0",
 		"@sindresorhus/tsconfig": "^7.0.0",
 		"@types/node": "^22.10.7",

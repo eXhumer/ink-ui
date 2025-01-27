@@ -1,6 +1,6 @@
 [![](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
-# Ink UI [![test](https://github.com/vadimdemedes/ink-ui/actions/workflows/test.yml/badge.svg)](https://github.com/vadimdemedes/ink-ui/actions/workflows/test.yml)
+# Ink UI [![test](https://github.com/eXhumer/ink-ui/actions/workflows/test.yml/badge.svg)](https://github.com/eXhumer/ink-ui/actions/workflows/test.yml)
 
 > Collection of customizable UI components for CLIs made with [Ink](https://term.ink).
 
@@ -10,7 +10,7 @@
 npm install @exhumer/ink-ui
 ```
 
-_This assumes you've already set up [Ink](https://term.ink). The easiest way to get started is [create-ink-app](https://github.com/vadimdemedes/create-ink-app)._
+_This assumes you've already set up [Ink](https://term.ink). The easiest way to get started is [create-exhumer-ink-app](https://github.com/eXhumer/create-exhumer-ink-app)._
 
 ## Components
 
